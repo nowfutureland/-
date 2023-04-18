@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class mkkk {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 화면 확대 : crtl + '+'
+		Scanner sc = new Scanner(System.in);
+		// 클래스   인스턴스
+		System.out.println("숫자 하나 입력 해봐");
+		int num = sc.nextInt();
+		
+		//num이 18보다 작냐
+		if (num<18) {
+			System.out.println("num이 18보다 작네");
+			System.out.println("나약하다");
+		} else {
+			System.out.println("num이 18보다 작지 않다");
+		}
+			//홀짝 구분
+		if (num%2==0)
+			
+	
+	}
+
+}
