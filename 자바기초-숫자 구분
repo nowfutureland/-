@@ -17,8 +17,7 @@ public class mkkk {
 		} else {
 			System.out.println("num이 18보다 작지 않다");
 		}
-			//홀짝 구분
-		if (num%2==0)
+			
 			
 	
 	}
