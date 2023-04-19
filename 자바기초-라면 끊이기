@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class KKKKKKKKKK {
+
+	public static void main(String[] args)
+	
+	{	Scanner sc = new Scanner(System.in);
+	
+		System.out.println("라면을 끓어보자!");
+		
+		System.out.println("가스렌인지 앞에 섰다.");
+		System.out.println("1.불은 킨다. 2.귀찮다.생라면 ㄱ ㄱ");
+		int ㄻ = sc.nextInt();
+		
+		if(ㄻ==1 ) {
+			System.out.println("가스버너가 켜집니다. 틱틱틱~");
+			System.out.println("물이 끊네요. 보글보글");
+			System.out.println("1.면~스프를 넣는다. 2.귀찮다. 그냥 편의점 가야지~");
+			int ㄻ2 = sc.nextInt();
+			if(ㄻ2==1) {
+				System.out.println("면과 스프를 넣고 2분 더 끓었다");
+				System.out.println("맛있게 먹자..!우와 너무 맛있다1");
+				
+				} else if (ㄻ2==2) {
+					System.out.println("불을 끄고 편의점에 갑니다, ㅃ2");
+					
+					
+				} else {
+					System.out.println("1,2층에 하나만 입력해야 합니다! 빠이~");
+				}
+			
+			
+		} else if(ㄻ==2 ) {
+			System.out.println("생라면 먹방 가보자고 우걱우걱");
+			
+		} else {
+			System.out.println("1,2층에 하나만 입력해야 합니다! 빠이~");
+		}
+		
+		
+
+	}
+
+}
