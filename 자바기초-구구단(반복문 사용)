@@ -1,0 +1,29 @@
+package jhg;
+
+import java.util.Scanner;
+
+
+
+public class Tsere {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("단 입력");
+		int 몇단 = sc.nextInt();
+		int  곱 = 1;
+		while(곱<=9) {
+			
+//			조건이 참인동안 실행할 문장;
+//		System.out.println(몇단+"1~9 = "+(몇단*1~9));
+//		System.out.println(몇단+"*"+곱+"="+(몇단 * 곱));
+//			곱++;
+			
+				
+					
+		}
+		for(int 포곱=1;포곱<=9;포곱++) {
+			System.out.println(몇단+"*"+포곱+"="+(몇단*포곱));
+
+	}
+
+}
