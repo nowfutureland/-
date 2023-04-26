@@ -1,0 +1,28 @@
+public class LLLLLL {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("현재 숫자:");
+		
+		int num = scan.nextInt();
+		int sum = 0;
+		int i = 1;
+		
+		while(true) {
+			System.out.println("현재숫자 :"+i+"");
+			sum += i;
+			System.out.println("현재합계 :" +sum);
+			i++;
+			System.out.println(sum);
+			if(i > num) {
+				System.out.println("끝");
+				break;
+			}
+			
+		}
+		System.out.println(sum);
+		
+
+	}
+
+}
